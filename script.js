@@ -10,7 +10,7 @@ document.getElementById('generateWishButton').addEventListener('click', function
         document.getElementById('wishText').style.color = friendColor; // Change text color based on user input
         
         // Set the image source (you can choose a default image or based on user input)
-        const defaultImage = '/images/durga-idol.png'; // Change this to your image path
+        const defaultImage = './images/durga-idol.png'; // Change this to your image path
         document.getElementById('wishImage').src = defaultImage;
         document.getElementById('wishImage').style.display = 'block'; // Show the image
 
