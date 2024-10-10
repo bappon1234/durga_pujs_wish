@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Durga Puja Wishes for Friends</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Happy Durga Puja Wishes for all my Friends</h1>
+            <p>Enter your name and favorite color to send a special wish!</p>
+        </header>
+
+        <section class="input-section">
+            <h2>Input Your Details</h2>
+            <input type="text" id="friendNameInput" placeholder="Enter your name" />
+            <input type="text" id="friendColorInput" placeholder="Enter your favorite color" />
+            <button id="generateWishButton">Generate Wish</button>
+        </section>
+
+        <section class="wish-section">
+            <h2>Personalized Wish:</h2>
+            <div id="wishOutput" class="wish-output">
+                <img id="wishImage" src="" alt="Durga Puja Decoration" style="display: none;" />
+                <p id="wishText"></p>
+            </div>
+            <div class="share-section" style="display: none;">
+                <h2>Share Your Wish:</h2>
+                <button id="shareFacebook">Share on Facebook</button>
+                <button id="shareTwitter">Share on Twitter</button>
+                <button id="shareWhatsApp">Share on WhatsApp</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

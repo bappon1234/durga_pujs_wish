@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #e67e22; /* Festive color */
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  border: 2px solid #e67e22;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d35400;
+}
+
+.wish-section {
+  margin-top: 20px;
+}
+
+.wish-output {
+  padding: 20px;
+  border: 2px dashed #e67e22;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  min-height: 150px; /* Increased height to accommodate the image */
+}
+
+.wish-output img {
+  max-width: 100%; /* Ensure the image is responsive */
+  height: 10%;
+  border-radius: 5px; /* Rounded corners for the image */
+  margin-bottom: 15px; /* Space between image and text */
+}
+
+.share-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.share-section button {
+  margin: 5px;
+}
